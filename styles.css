@@ -65,6 +65,24 @@ h2 {
     padding: 0;
 }
 
+/* Navbar adjustments */
+.navbar {
+    height: 60px; /* Fixed height for the navbar */
+    padding: 0;
+}
+
+.logo-img {
+    max-height: 100%; /* Ensure the logo does not exceed navbar height */
+    width: auto;      /* Maintain the aspect ratio of the logo */
+}
+
+/* Adjust alignment of the logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 #skills ul li {
     background-color: #f4f4f4;
     margin: 10px 0;

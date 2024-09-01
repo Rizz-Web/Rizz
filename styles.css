@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f4f4f4;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Navbar adjustments */
+.navbar {
+    height: 60px; /* Fixed height for the navbar */
+    padding: 0;
+}
+
+.logo-img {
+    max-height: 100%; /* Ensure the logo does not exceed navbar height */
+    width: auto;      /* Maintain the aspect ratio of the logo */
+}
+
+/* Adjust alignment of the logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#skills ul li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.project, .certificate {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}

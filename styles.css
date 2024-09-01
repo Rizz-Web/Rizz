@@ -13,6 +13,23 @@ header {
     color: #fff;
 }
 
+
+.navbar {
+    height: 60px;
+    padding: 0;
+}
+
+.logo-img {
+    max-height: 100%; 
+    width: auto;    
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 header .logo {
     font-size: 24px;
 }
@@ -63,24 +80,6 @@ h2 {
 #skills ul {
     list-style: none;
     padding: 0;
-}
-
-/* Navbar adjustments */
-.navbar {
-    height: 60px; /* Fixed height for the navbar */
-    padding: 0;
-}
-
-.logo-img {
-    max-height: 100%; /* Ensure the logo does not exceed navbar height */
-    width: auto;      /* Maintain the aspect ratio of the logo */
-}
-
-/* Adjust alignment of the logo */
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    height: 100%;
 }
 
 #skills ul li {
